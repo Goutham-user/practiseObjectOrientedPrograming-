@@ -18,7 +18,7 @@ typeof (b);  // Undefined
 b = 20;
 typeof (b);   // Number 
 
-b = 'shubham';
+b = 'Goutham';
 typeof (b);   // String 
 
 
@@ -45,7 +45,7 @@ var b = 20.6666;
 
 // *****************   String  ***************************
 
-var name = "shubham";
+var name = "Goutham";
 var city = 'Delhi';
 var num = "20.89";
 
@@ -70,12 +70,12 @@ typeof (null);   // Object  OR    {}
 
 var marks = [90, 78, 68, 46];  // Array of Numbers 
 
-var students = ["Shubham", "Aakash", "Aarti"];   // Array of String 
+var students = ["Goutham", "Aakash", "Aarti"];   // Array of String 
 
 // *********************************  Object *****************************
 
 var student1 = {
-    name: "Shubham",
+    name: "Goutham",
     age: 29,
     address: "Shalimar Bagh, Delhi",
     percentage: 80,
@@ -86,7 +86,7 @@ var student1 = {
 
 var studentsClass = [
     {
-        name: "Shubham",
+        name: "Goutham",
         age: 29,
         address: "Shalimar Bagh, Delhi",
         percentage: 80,
@@ -150,7 +150,7 @@ var res = num1 % num2;  // 2
 
 // >>>>>>>>>>>>>  Assignment  >>>>>>>>>>>>>>>>>>>>>>>
 
-var name = "Shubham";
+var name = "Goutham";
 
 var num = 3;
 
@@ -221,7 +221,7 @@ function alerts() {
 
 function inner() {
     var elemnt = document.getElementById("one");
-    elemnt.innerHTML += " Shubham";
+    elemnt.innerHTML += " Goutham";
 }
 
 // document.write
@@ -354,7 +354,7 @@ for (var i = 0; i <= arr.length; i++) {
 var i = 0;
 
 while (i <= 10) {
-    console.log("Shubham");
+    console.log("Goutham");
     i++;
 }    // 11 times
 
@@ -435,7 +435,7 @@ class Students {
 }
 
 var studentObj = new Students();
-studentObj.printNames();               // ["Aarti", "Shubham", "Aakash"]
+studentObj.printNames();               // ["Aarti", "Goutham", "Aakash"]
 studentObj.studentsByCity("Delhi");
 
 /* [
@@ -444,7 +444,7 @@ studentObj.studentsByCity("Delhi");
             age: 29,
             city: "Delhi"
         }, {
-            name: "Shubham",
+            name: "Goutham",
             age: 30,
             city: "Delhi"
         }
@@ -457,7 +457,7 @@ var studentObj1 = new Students([
         age: 29,
         city: "Delhi"
     }, {
-        name: "Shubham",
+        name: "Goutham",
         age: 30,
         city: "Delhi"
     }, {
@@ -520,7 +520,7 @@ Object.keys(orderData).map((item, index) => {
 // '' or " "
 // Array of Characters 
 
-var myName = "Shubham Arora";
+var myName = "Goutham Arora";
 
 var myName = ["S", "h", "u", "b", "h", "a", "m"];
 
@@ -529,7 +529,7 @@ myName.charAt(4);  // "h"
 myName.indexOf('h');  // 1
 myName.lastIndexOf('h');   // 4
 
-myName.split(' ');  // ["Shubham", "Arora"]
+myName.split(' ');  // ["Goutham", "Arora"]
 
 myName.split('');  //  ["S", "h", "u", "b", "h", "a", "m", " ", "A", "r", "o", "r", "a"];
 
@@ -640,7 +640,7 @@ var sum = (a, b) => {
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Object Destructuring   >>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 var obj = {
-    name: "Shubham",
+    name: "Goutham",
     rollNo: 1,
     city: "Delhi"
 };
@@ -650,7 +650,7 @@ var city = obj.city;
 
 var { name, city, id } = obj;
 
-console.log(name);   // "Shubham"
+console.log(name);   // "Goutham"
 console.log(id);     // undefined
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Template String   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -714,12 +714,12 @@ var sum = '2' + undefined;  // 2undefined
 
 // >>>>>>>>>>>>>>>>>>>>  Query String  >>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-'?id=34&name="shubham"'
+'?id=34&name="Goutham"'
 
 // >>>>>>>>>>>>>>>>>>>  Web Storage >>>>>>>>>>>>>>>>>>>
 
-sessionStorage.setItem('userName', 'Shubham');
-sessionStorage.getItem('userName');   // 'Shubham'
+sessionStorage.setItem('userName', 'Goutham');
+sessionStorage.getItem('userName');   // 'Goutham'
 
 
 localStorage.setItem();
@@ -784,7 +784,7 @@ sum(2, 4);
 // Replica of Reference DT 
 
 var obj = {
-    name: "shubham",
+    name: "Goutham",
     age: 30,
     city: "delhi"
 }
