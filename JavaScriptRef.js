@@ -331,9 +331,18 @@ testArr.find(item => item < 20);  //  undefined
 
 var arr = [1, 2, 3, 4, 5, 6];
 
+// arr.slice(start, end);
 arr.slice(1, 4);  // [2,3,4]
 
+// arr.splice(startnumber, deletecount);
 arr.splice(2, 2);  // [1, 2, 5, 6];
+
+// splice can add elements in an array at specific index
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.splice(2, 0, "Lemon", "Kiwi"); // Banana,Orange,Lemon,Kiwi,Apple,Mango
+
 
 // ******************  sort *************************
 
@@ -342,6 +351,18 @@ var arr = [1, 2, 3, 4, 5, 6];
 arr.sort((a, b) => a - b);  // Ascending 
 arr.sort((a, b) => b - a);  // Descending
 
+const arr = [9, 4, 0, 1, 2, 5, 7, 4, ];
+// to accending order
+arr.sort(); //[0, 1, 2, 4, 4, 5, 7, 9]
+// or
+arr.sort((a,b)=> a - b); //[0, 1, 2, 4, 4, 5, 7, 9]
+
+// reverse an array
+
+// arr.reverse();
+
+// to descending order
+arr.sort((a,b) => b - a); //[9, 7, 5, 4, 4, 2, 1, 0]
 
 // ********************************  Loops  *************************************
 
@@ -495,10 +516,7 @@ var orderData = {
     'Above 2000': 64
 };
 
-var arr = [1, 2, 3, 4, 5];
-
-arr.reduce((a, b) => a * b, 1);  // 120
-
+ 
 a = 120;
 b = 5;
 
